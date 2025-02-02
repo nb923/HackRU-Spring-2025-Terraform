@@ -1,0 +1,26 @@
+# Terraform files
+*.tfstate
+*.tfstate.*
+crash.log
+*.tfvars
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+
+# .terraform directory
+.terraform/
+
+# CLI configuration files
+.terraformrc
+terraform.rc
+
+# IDE or Editor specific files
+.idea/
+.vscode/
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+.env
+venv
